@@ -1,0 +1,2626 @@
+fileFormatVersion: 2
+guid: 1ac6c977b4a22a240b52ce89b13f852e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4430613882989187629
+    second: breakout_sprites_vortex_cleaned_0
+  - first:
+      213: 4147680936687527962
+    second: breakout_sprites_vortex_cleaned_1
+  - first:
+      213: -6860941478244186865
+    second: breakout_sprites_vortex_cleaned_2
+  - first:
+      213: -2102457865421345002
+    second: breakout_sprites_vortex_cleaned_3
+  - first:
+      213: -6516920784231803031
+    second: breakout_sprites_vortex_cleaned_4
+  - first:
+      213: 5760660830064848248
+    second: breakout_sprites_vortex_cleaned_5
+  - first:
+      213: 4116414809010363714
+    second: breakout_sprites_vortex_cleaned_6
+  - first:
+      213: -1373669828843116178
+    second: breakout_sprites_vortex_cleaned_7
+  - first:
+      213: -7376682047181899578
+    second: breakout_sprites_vortex_cleaned_8
+  - first:
+      213: -1779862007629145946
+    second: breakout_sprites_vortex_cleaned_9
+  - first:
+      213: -5595729029713748581
+    second: breakout_sprites_vortex_cleaned_10
+  - first:
+      213: -692658559709589563
+    second: breakout_sprites_vortex_cleaned_11
+  - first:
+      213: 4370549684756592833
+    second: breakout_sprites_vortex_cleaned_12
+  - first:
+      213: 6600775655090325925
+    second: breakout_sprites_vortex_cleaned_13
+  - first:
+      213: -6976104398766799053
+    second: breakout_sprites_vortex_cleaned_14
+  - first:
+      213: -4119635004699628346
+    second: breakout_sprites_vortex_cleaned_15
+  - first:
+      213: -3811442103590495574
+    second: breakout_sprites_vortex_cleaned_16
+  - first:
+      213: -1612618335800599716
+    second: breakout_sprites_vortex_cleaned_17
+  - first:
+      213: 1153619256530690018
+    second: breakout_sprites_vortex_cleaned_18
+  - first:
+      213: 2958723747783536132
+    second: breakout_sprites_vortex_cleaned_19
+  - first:
+      213: 6371037521681238983
+    second: breakout_sprites_vortex_cleaned_20
+  - first:
+      213: -3467908387784440082
+    second: breakout_sprites_vortex_cleaned_21
+  - first:
+      213: 4048318632043789538
+    second: breakout_sprites_vortex_cleaned_22
+  - first:
+      213: 2681191903972023326
+    second: breakout_sprites_vortex_cleaned_23
+  - first:
+      213: 3129070613175764815
+    second: breakout_sprites_vortex_cleaned_24
+  - first:
+      213: -7893178680702007375
+    second: breakout_sprites_vortex_cleaned_25
+  - first:
+      213: 5461935956470142268
+    second: breakout_sprites_vortex_cleaned_26
+  - first:
+      213: 5436691345794497668
+    second: breakout_sprites_vortex_cleaned_27
+  - first:
+      213: -6129188298712276534
+    second: breakout_sprites_vortex_cleaned_28
+  - first:
+      213: 4992637758544858481
+    second: breakout_sprites_vortex_cleaned_29
+  - first:
+      213: -3184988008955256169
+    second: breakout_sprites_vortex_cleaned_30
+  - first:
+      213: 4073439338587972697
+    second: breakout_sprites_vortex_cleaned_31
+  - first:
+      213: -1586057854260439667
+    second: breakout_sprites_vortex_cleaned_32
+  - first:
+      213: 7398509240634235160
+    second: breakout_sprites_vortex_cleaned_33
+  - first:
+      213: -8738864234675289994
+    second: breakout_sprites_vortex_cleaned_34
+  - first:
+      213: -1604873710232641107
+    second: breakout_sprites_vortex_cleaned_35
+  - first:
+      213: -4827811003448666050
+    second: breakout_sprites_vortex_cleaned_36
+  - first:
+      213: 5023769475547397639
+    second: breakout_sprites_vortex_cleaned_37
+  - first:
+      213: -4687830073106685546
+    second: breakout_sprites_vortex_cleaned_38
+  - first:
+      213: -6187009380640277565
+    second: breakout_sprites_vortex_cleaned_39
+  - first:
+      213: -2879425533487860133
+    second: breakout_sprites_vortex_cleaned_40
+  - first:
+      213: 3700959353800630498
+    second: breakout_sprites_vortex_cleaned_41
+  - first:
+      213: 7791310454094493761
+    second: breakout_sprites_vortex_cleaned_42
+  - first:
+      213: 5296654222138107650
+    second: breakout_sprites_vortex_cleaned_43
+  - first:
+      213: -5952107311217714932
+    second: breakout_sprites_vortex_cleaned_44
+  - first:
+      213: -379721548895717918
+    second: breakout_sprites_vortex_cleaned_45
+  - first:
+      213: -8780118997920329535
+    second: breakout_sprites_vortex_cleaned_46
+  - first:
+      213: -6086235412787263578
+    second: breakout_sprites_vortex_cleaned_47
+  - first:
+      213: 1902360067837629564
+    second: breakout_sprites_vortex_cleaned_48
+  - first:
+      213: -8021605532266043415
+    second: breakout_sprites_vortex_cleaned_49
+  - first:
+      213: 979535073784128920
+    second: breakout_sprites_vortex_cleaned_50
+  - first:
+      213: 3360836196212599487
+    second: breakout_sprites_vortex_cleaned_51
+  - first:
+      213: -5023310787330449582
+    second: breakout_sprites_vortex_cleaned_52
+  - first:
+      213: 6781965683653686548
+    second: breakout_sprites_vortex_cleaned_53
+  - first:
+      213: -8787087479644437075
+    second: breakout_sprites_vortex_cleaned_54
+  - first:
+      213: 3241326453787282876
+    second: breakout_sprites_vortex_cleaned_55
+  - first:
+      213: -3577592727823061795
+    second: breakout_sprites_vortex_cleaned_56
+  - first:
+      213: 8544063725857079922
+    second: breakout_sprites_vortex_cleaned_57
+  - first:
+      213: -6821394452958737047
+    second: breakout_sprites_vortex_cleaned_58
+  - first:
+      213: -4754840020162591334
+    second: breakout_sprites_vortex_cleaned_59
+  - first:
+      213: -2083924048773297601
+    second: breakout_sprites_vortex_cleaned_60
+  - first:
+      213: -6436629523567785263
+    second: breakout_sprites_vortex_cleaned_61
+  - first:
+      213: -7771484586096251716
+    second: breakout_sprites_vortex_cleaned_62
+  - first:
+      213: 5964316551979273273
+    second: breakout_sprites_vortex_cleaned_63
+  - first:
+      213: 5203687165819088345
+    second: breakout_sprites_vortex_cleaned_64
+  - first:
+      213: -4646718844121840395
+    second: breakout_sprites_vortex_cleaned_65
+  - first:
+      213: 403680360004615617
+    second: breakout_sprites_vortex_cleaned_66
+  - first:
+      213: -4111621015039849746
+    second: breakout_sprites_vortex_cleaned_67
+  - first:
+      213: 6955089768437071439
+    second: breakout_sprites_vortex_cleaned_68
+  - first:
+      213: 8992889183178306543
+    second: breakout_sprites_vortex_cleaned_69
+  - first:
+      213: 1597667027108833288
+    second: breakout_sprites_vortex_cleaned_70
+  - first:
+      213: 779262213643610600
+    second: breakout_sprites_vortex_cleaned_71
+  - first:
+      213: 7895256085979296871
+    second: breakout_sprites_vortex_cleaned_72
+  - first:
+      213: 48488507645769250
+    second: breakout_sprites_vortex_cleaned_73
+  - first:
+      213: -47063400713450118
+    second: breakout_sprites_vortex_cleaned_74
+  - first:
+      213: -1966330210523977870
+    second: breakout_sprites_vortex_cleaned_75
+  - first:
+      213: -7897323257452867283
+    second: breakout_sprites_vortex_cleaned_76
+  - first:
+      213: -2489791931267179833
+    second: breakout_sprites_vortex_cleaned_77
+  - first:
+      213: -717738526040455579
+    second: breakout_sprites_vortex_cleaned_78
+  - first:
+      213: 8298963215860009598
+    second: breakout_sprites_vortex_cleaned_79
+  - first:
+      213: 8285572479816706958
+    second: breakout_sprites_vortex_cleaned_80
+  - first:
+      213: -4518856862223292260
+    second: breakout_sprites_vortex_cleaned_81
+  - first:
+      213: -4260814161558018138
+    second: breakout_sprites_vortex_cleaned_82
+  - first:
+      213: -8045579476811311865
+    second: breakout_sprites_vortex_cleaned_83
+  - first:
+      213: -5183889220056395509
+    second: breakout_sprites_vortex_cleaned_84
+  - first:
+      213: -4351427991502656357
+    second: breakout_sprites_vortex_cleaned_85
+  - first:
+      213: 8465033331972292825
+    second: breakout_sprites_vortex_cleaned_86
+  - first:
+      213: -5693668945641099327
+    second: breakout_sprites_vortex_cleaned_87
+  - first:
+      213: 8165220923484305285
+    second: breakout_sprites_vortex_cleaned_88
+  - first:
+      213: -7397825361420640403
+    second: breakout_sprites_vortex_cleaned_89
+  - first:
+      213: -3400280916763333294
+    second: breakout_sprites_vortex_cleaned_90
+  - first:
+      213: 3312967365452831035
+    second: breakout_sprites_vortex_cleaned_91
+  - first:
+      213: -2772212781052096440
+    second: breakout_sprites_vortex_cleaned_92
+  - first:
+      213: 2279151820930785926
+    second: breakout_sprites_vortex_cleaned_93
+  - first:
+      213: 5832790540764728694
+    second: breakout_sprites_vortex_cleaned_94
+  - first:
+      213: -2647615273207045713
+    second: breakout_sprites_vortex_cleaned_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dde387d52c4382c0800000000000000
+      internalID: -4430613882989187629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 368
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a186be826d58f8930800000000000000
+      internalID: 4147680936687527962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 368
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05038c831a09c0a0800000000000000
+      internalID: -6860941478244186865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 369
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fa550f5b192d2e0800000000000000
+      internalID: -2102457865421345002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 368
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967d08a231f3f85a0800000000000000
+      internalID: -6516920784231803031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 369
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87da58fe08af1ff40800000000000000
+      internalID: 5760660830064848248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 368
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d58378571702930800000000000000
+      internalID: 4116414809010363714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_7
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 371
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e696225919ebfece0800000000000000
+      internalID: -1373669828843116178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 368
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8b8bce2c2c0a990800000000000000
+      internalID: -7376682047181899578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 368
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a81d062fe8ac47e0800000000000000
+      internalID: -1779862007629145946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d129c481af752b0800000000000000
+      internalID: -5595729029713748581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 328
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf40e5b5be2366f0800000000000000
+      internalID: -692658559709589563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 328
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8bc1938cf47ac30800000000000000
+      internalID: 4370549684756592833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 328
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a984b36c7aaa9b50800000000000000
+      internalID: 6600775655090325925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 328
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3370773a206ef2f90800000000000000
+      internalID: -6976104398766799053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 349
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc2d9c3acd14d6c0800000000000000
+      internalID: -4119635004699628346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 330
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa5585c9990b1bc0800000000000000
+      internalID: -3811442103590495574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_17
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 349
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bd258ea24de99e0800000000000000
+      internalID: -1612618335800599716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_18
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 338
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efdf870a9a720010800000000000000
+      internalID: 1153619256530690018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 329
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e6627929f7f0920800000000000000
+      internalID: 2958723747783536132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_20
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 329
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbce7aeed87a6850800000000000000
+      internalID: 6371037521681238983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 328
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6c280f1b38fdfc0800000000000000
+      internalID: -3467908387784440082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_22
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 339
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecb090d8548e2830800000000000000
+      internalID: 4048318632043789538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 344
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cd7e2c4d1853520800000000000000
+      internalID: 2681191903972023326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 329
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f478477e421bc6b20800000000000000
+      internalID: 3129070613175764815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_25
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 336
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7021c4fcbc57290800000000000000
+      internalID: -7893178680702007375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_26
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 329
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35165750d1bccb40800000000000000
+      internalID: 5461935956470142268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 329
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c758369f1037b40800000000000000
+      internalID: 5436691345794497668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac126c557bfb0faa0800000000000000
+      internalID: -6129188298712276534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_29
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17dc44ad699694540800000000000000
+      internalID: 4992637758544858481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 288
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792e758d746acc3d0800000000000000
+      internalID: -3184988008955256169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 289
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95463a61f73c78830800000000000000
+      internalID: 4073439338587972697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85969be8c03df9e0800000000000000
+      internalID: -1586057854260439667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_33
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 307
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819d27394f8cca660800000000000000
+      internalID: 7398509240634235160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_34
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 288
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67040df674159b680800000000000000
+      internalID: -8738864234675289994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_35
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 287
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da168301dd75ab9e0800000000000000
+      internalID: -1604873710232641107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_36
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 288
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3858b0a87b200db0800000000000000
+      internalID: -4827811003448666050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_37
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 311
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ef37f88b308b540800000000000000
+      internalID: 5023769475547397639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_38
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 290
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691251db26b71feb0800000000000000
+      internalID: -4687830073106685546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_39
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 291
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb3dec9fb3532aa0800000000000000
+      internalID: -6187009380640277565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56344fabb93a08d0800000000000000
+      internalID: -2879425533487860133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0227b7ce27c5330800000000000000
+      internalID: 3700959353800630498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 293
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148f61fe39b402c60800000000000000
+      internalID: 7791310454094493761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 288
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2076d90c3fe718940800000000000000
+      internalID: 5296654222138107650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 251
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09dcd1afedd56da0800000000000000
+      internalID: -5952107311217714932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_45
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 258
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5728c5345fabaf0800000000000000
+      internalID: -379721548895717918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_46
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 272
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0dc4b5a40c62680800000000000000
+      internalID: -8780118997920329535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_47
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 272
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a789696329598ba0800000000000000
+      internalID: -6086235412787263578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 249
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74995e076a866a10800000000000000
+      internalID: 1902360067837629564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_49
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 272
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e769f8c4488da090800000000000000
+      internalID: -8021605532266043415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_50
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 272
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89560f5b5f1089d00800000000000000
+      internalID: 979535073784128920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_51
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 248
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbae687c6b614ae20800000000000000
+      internalID: 3360836196212599487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_52
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 248
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fd7cc147d994ab0800000000000000
+      internalID: -5023310787330449582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_53
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 248
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415311d5bd16e1e50800000000000000
+      internalID: 6781965683653686548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 273
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5c2854e7efd0680800000000000000
+      internalID: -8787087479644437075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 254
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd41178c318bfc20800000000000000
+      internalID: 3241326453787282876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_56
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 273
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddce5137e56d95ec0800000000000000
+      internalID: -3577592727823061795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_57
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 264
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2720306b0bc929670800000000000000
+      internalID: 8544063725857079922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_58
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 248
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d0396e2e98551a0800000000000000
+      internalID: -6821394452958737047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_59
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 266
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95c562a13a630eb0800000000000000
+      internalID: -4754840020162591334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a49f56e1a6413e0800000000000000
+      internalID: -2083924048773297601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_61
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da43f01d8f7ca6a0800000000000000
+      internalID: -6436629523567785263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_62
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 251
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc2f4ca1f3262490800000000000000
+      internalID: -7771484586096251716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_63
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 256
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c05b0cd4285c250800000000000000
+      internalID: 5964316551979273273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_64
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 249
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dde7e038e5373840800000000000000
+      internalID: 5203687165819088345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_65
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 254
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f40105a4d9838fb0800000000000000
+      internalID: -4646718844121840395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 248
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd70ec06292a9500800000000000000
+      internalID: 403680360004615617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 248
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeac48b987690f6c0800000000000000
+      internalID: -4111621015039849746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_68
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 248
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e35a47b41758060800000000000000
+      internalID: 6955089768437071439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3bbc3d0192dcc70800000000000000
+      internalID: 8992889183178306543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_70
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 208
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8082d2442bd0c2610800000000000000
+      internalID: 1597667027108833288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_71
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 171
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9ac17cade70da00800000000000000
+      internalID: 779262213643610600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_72
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 171
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764798f4495919d60800000000000000
+      internalID: 7895256085979296871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 96
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2263ae17a044ca000800000000000000
+      internalID: 48488507645769250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d8d8e161cc85ff0800000000000000
+      internalID: -47063400713450118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 112
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2776992771136b4e0800000000000000
+      internalID: -1966330210523977870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_76
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 137
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d215713d652176290800000000000000
+      internalID: -7897323257452867283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 128
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca9f241e6b727dd0800000000000000
+      internalID: -2489791931267179833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_78
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 51
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5660fb10d941a06f0800000000000000
+      internalID: -717738526040455579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_79
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 51
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a8e553317db2370800000000000000
+      internalID: 8298963215860009598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b2a3485444cf270800000000000000
+      internalID: 8285572479816706958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_81
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98285030abc941c0800000000000000
+      internalID: -4518856862223292260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_82
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a76166481c8ed4c0800000000000000
+      internalID: -4260814161558018138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_83
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7051d78d71c585090800000000000000
+      internalID: -8045579476811311865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_84
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01df8348302f08b0800000000000000
+      internalID: -5183889220056395509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_85
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ceacceb4f9c93c0800000000000000
+      internalID: -4351427991502656357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_86
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0cc0c37f6d97570800000000000000
+      internalID: 8465033331972292825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_87
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfa362a2460cf0b0800000000000000
+      internalID: -5693668945641099327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_88
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5877ed03b21b05170800000000000000
+      internalID: 8165220923484305285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_89
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f95267705a55990800000000000000
+      internalID: -7397825361420640403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_90
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d28cb8586cfc0d0800000000000000
+      internalID: -3400280916763333294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_91
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39174a14460afd20800000000000000
+      internalID: 3312967365452831035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_92
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8409797d92f1789d0800000000000000
+      internalID: -2772212781052096440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_93
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682a3c3718c21af10800000000000000
+      internalID: 2279151820930785926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_94
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d4a87e71c32f050800000000000000
+      internalID: 5832790540764728694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: breakout_sprites_vortex_cleaned_95
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1689acfe7c14bd0800000000000000
+      internalID: -2647615273207045713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      breakout_sprites_vortex_cleaned_0: -4430613882989187629
+      breakout_sprites_vortex_cleaned_1: 4147680936687527962
+      breakout_sprites_vortex_cleaned_10: -5595729029713748581
+      breakout_sprites_vortex_cleaned_11: -692658559709589563
+      breakout_sprites_vortex_cleaned_12: 4370549684756592833
+      breakout_sprites_vortex_cleaned_13: 6600775655090325925
+      breakout_sprites_vortex_cleaned_14: -6976104398766799053
+      breakout_sprites_vortex_cleaned_15: -4119635004699628346
+      breakout_sprites_vortex_cleaned_16: -3811442103590495574
+      breakout_sprites_vortex_cleaned_17: -1612618335800599716
+      breakout_sprites_vortex_cleaned_18: 1153619256530690018
+      breakout_sprites_vortex_cleaned_19: 2958723747783536132
+      breakout_sprites_vortex_cleaned_2: -6860941478244186865
+      breakout_sprites_vortex_cleaned_20: 6371037521681238983
+      breakout_sprites_vortex_cleaned_21: -3467908387784440082
+      breakout_sprites_vortex_cleaned_22: 4048318632043789538
+      breakout_sprites_vortex_cleaned_23: 2681191903972023326
+      breakout_sprites_vortex_cleaned_24: 3129070613175764815
+      breakout_sprites_vortex_cleaned_25: -7893178680702007375
+      breakout_sprites_vortex_cleaned_26: 5461935956470142268
+      breakout_sprites_vortex_cleaned_27: 5436691345794497668
+      breakout_sprites_vortex_cleaned_28: -6129188298712276534
+      breakout_sprites_vortex_cleaned_29: 4992637758544858481
+      breakout_sprites_vortex_cleaned_3: -2102457865421345002
+      breakout_sprites_vortex_cleaned_30: -3184988008955256169
+      breakout_sprites_vortex_cleaned_31: 4073439338587972697
+      breakout_sprites_vortex_cleaned_32: -1586057854260439667
+      breakout_sprites_vortex_cleaned_33: 7398509240634235160
+      breakout_sprites_vortex_cleaned_34: -8738864234675289994
+      breakout_sprites_vortex_cleaned_35: -1604873710232641107
+      breakout_sprites_vortex_cleaned_36: -4827811003448666050
+      breakout_sprites_vortex_cleaned_37: 5023769475547397639
+      breakout_sprites_vortex_cleaned_38: -4687830073106685546
+      breakout_sprites_vortex_cleaned_39: -6187009380640277565
+      breakout_sprites_vortex_cleaned_4: -6516920784231803031
+      breakout_sprites_vortex_cleaned_40: -2879425533487860133
+      breakout_sprites_vortex_cleaned_41: 3700959353800630498
+      breakout_sprites_vortex_cleaned_42: 7791310454094493761
+      breakout_sprites_vortex_cleaned_43: 5296654222138107650
+      breakout_sprites_vortex_cleaned_44: -5952107311217714932
+      breakout_sprites_vortex_cleaned_45: -379721548895717918
+      breakout_sprites_vortex_cleaned_46: -8780118997920329535
+      breakout_sprites_vortex_cleaned_47: -6086235412787263578
+      breakout_sprites_vortex_cleaned_48: 1902360067837629564
+      breakout_sprites_vortex_cleaned_49: -8021605532266043415
+      breakout_sprites_vortex_cleaned_5: 5760660830064848248
+      breakout_sprites_vortex_cleaned_50: 979535073784128920
+      breakout_sprites_vortex_cleaned_51: 3360836196212599487
+      breakout_sprites_vortex_cleaned_52: -5023310787330449582
+      breakout_sprites_vortex_cleaned_53: 6781965683653686548
+      breakout_sprites_vortex_cleaned_54: -8787087479644437075
+      breakout_sprites_vortex_cleaned_55: 3241326453787282876
+      breakout_sprites_vortex_cleaned_56: -3577592727823061795
+      breakout_sprites_vortex_cleaned_57: 8544063725857079922
+      breakout_sprites_vortex_cleaned_58: -6821394452958737047
+      breakout_sprites_vortex_cleaned_59: -4754840020162591334
+      breakout_sprites_vortex_cleaned_6: 4116414809010363714
+      breakout_sprites_vortex_cleaned_60: -2083924048773297601
+      breakout_sprites_vortex_cleaned_61: -6436629523567785263
+      breakout_sprites_vortex_cleaned_62: -7771484586096251716
+      breakout_sprites_vortex_cleaned_63: 5964316551979273273
+      breakout_sprites_vortex_cleaned_64: 5203687165819088345
+      breakout_sprites_vortex_cleaned_65: -4646718844121840395
+      breakout_sprites_vortex_cleaned_66: 403680360004615617
+      breakout_sprites_vortex_cleaned_67: -4111621015039849746
+      breakout_sprites_vortex_cleaned_68: 6955089768437071439
+      breakout_sprites_vortex_cleaned_69: 8992889183178306543
+      breakout_sprites_vortex_cleaned_7: -1373669828843116178
+      breakout_sprites_vortex_cleaned_70: 1597667027108833288
+      breakout_sprites_vortex_cleaned_71: 779262213643610600
+      breakout_sprites_vortex_cleaned_72: 7895256085979296871
+      breakout_sprites_vortex_cleaned_73: 48488507645769250
+      breakout_sprites_vortex_cleaned_74: -47063400713450118
+      breakout_sprites_vortex_cleaned_75: -1966330210523977870
+      breakout_sprites_vortex_cleaned_76: -7897323257452867283
+      breakout_sprites_vortex_cleaned_77: -2489791931267179833
+      breakout_sprites_vortex_cleaned_78: -717738526040455579
+      breakout_sprites_vortex_cleaned_79: 8298963215860009598
+      breakout_sprites_vortex_cleaned_8: -7376682047181899578
+      breakout_sprites_vortex_cleaned_80: 8285572479816706958
+      breakout_sprites_vortex_cleaned_81: -4518856862223292260
+      breakout_sprites_vortex_cleaned_82: -4260814161558018138
+      breakout_sprites_vortex_cleaned_83: -8045579476811311865
+      breakout_sprites_vortex_cleaned_84: -5183889220056395509
+      breakout_sprites_vortex_cleaned_85: -4351427991502656357
+      breakout_sprites_vortex_cleaned_86: 8465033331972292825
+      breakout_sprites_vortex_cleaned_87: -5693668945641099327
+      breakout_sprites_vortex_cleaned_88: 8165220923484305285
+      breakout_sprites_vortex_cleaned_89: -7397825361420640403
+      breakout_sprites_vortex_cleaned_9: -1779862007629145946
+      breakout_sprites_vortex_cleaned_90: -3400280916763333294
+      breakout_sprites_vortex_cleaned_91: 3312967365452831035
+      breakout_sprites_vortex_cleaned_92: -2772212781052096440
+      breakout_sprites_vortex_cleaned_93: 2279151820930785926
+      breakout_sprites_vortex_cleaned_94: 5832790540764728694
+      breakout_sprites_vortex_cleaned_95: -2647615273207045713
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
