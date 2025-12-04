@@ -9,12 +9,13 @@ public class MainMenu : MonoBehaviour
     public Button registerButton;
     public Button loginButton;
     public Button startButton;
+    public Button gameButton;
+    public Button profileButton;
 
     public Text playerNameDisplay;
 
     private void Start()
     {
-        SceneManager.LoadScene(4);
         if (DBManager.LoggedIn)
         {
             playerNameDisplay.text = "Player: " + DBManager.username;
@@ -22,6 +23,8 @@ public class MainMenu : MonoBehaviour
         registerButton.interactable = !DBManager.LoggedIn;
         loginButton.interactable = !DBManager.LoggedIn;
         startButton.interactable = DBManager.LoggedIn;
+        profileButton.interactable = DBManager.LoggedIn;
+        gameButton.interactable = DBManager.LoggedIn;
     }
 
     public void GoToRegister()
@@ -39,8 +42,13 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(3);
     }
 
-    public void GoToRealGame()
+    public void GoToProfile()
     {
         SceneManager.LoadScene(4);
+    }
+
+    public void GoToRealGame()
+    {
+        SceneManager.LoadScene(5);
     }
 }

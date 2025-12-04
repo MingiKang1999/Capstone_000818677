@@ -3,7 +3,7 @@ using UnityEngine;
 public class NextStage : MonoBehaviour
 {
     public string playerTag = "Player";
-    public float loadDelay = 0.5f;
+    public float loadDelay = 0.3f;
 
     private bool triggered = false;
 

@@ -47,7 +47,7 @@ and I have not made my work available to anyone else.
 	$hash = $loginInfo["hash"];
 	
 	if (!password_verify($passwordFiltered, $hash)){
-		echo "Incorrect Password entered";
+		echo "Incorrect Password Entered";
 		exit();
 	}
 	// If all operation was sucessful send 1 to indicate it

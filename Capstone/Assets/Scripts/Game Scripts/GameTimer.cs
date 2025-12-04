@@ -29,6 +29,15 @@ public class GameTimer : MonoBehaviour
 
         if (timerText != null)
             timerText.text = string.Format("TIME: {0:00}:{1:00}", minutes, seconds);
+
+        // Stop increasing time after final stage
+        if (GameManager.Instance != null)
+        {
+            if (GameManager.Instance.world == 4 && GameManager.Instance.stage == 1)
+            {
+                isRunning = false;
+            }
+        }
     }
 
     public void StopTimer()

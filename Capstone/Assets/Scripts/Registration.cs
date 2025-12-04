@@ -11,6 +11,8 @@ public class Registration : MonoBehaviour
 
     public Button submitButton;
 
+    public Text ErrorDisplay;
+
     public void CallRegister()
     {
         StartCoroutine(Register());
@@ -36,11 +38,12 @@ public class Registration : MonoBehaviour
                 if (response == "1")
                 {
                     Debug.Log("Account created successfully");
-                    UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+                    SceneManager.LoadScene(0);
                 }
                 else
                 {
                     Debug.Log("Account creation failed. Error: " + response);
+                    ErrorDisplay.text = response;
                 }
             }
         }

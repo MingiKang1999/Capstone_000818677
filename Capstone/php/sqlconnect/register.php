@@ -27,6 +27,21 @@ and I have not made my work available to anyone else.
 		exit();
 	}
 	
+	if (!preg_match('/[0-9]/', $password)) {
+    echo "Password must contain at least one number.";
+    exit();
+	}
+	
+	if (!preg_match('/[A-Z]/', $password)) {
+    echo "Password must contain at least one uppercase letter.";
+    exit();
+	}
+	
+	if (!preg_match('/[^A-Za-z0-9]/', $password)) {
+    echo "Password must contain at least one special character.";
+    exit();
+	}
+	
 	//check if name already exists
 	$nameCheckSql = "SELECT username, hash, score FROM players WHERE username = ?";
 	$stmt = mysqli_prepare($connect, $nameCheckSql);

@@ -1145,6 +1145,7 @@ MonoBehaviour:
   nameField: {fileID: 987130432}
   passwordField: {fileID: 1701708967}
   submitButton: {fileID: 2121531207}
+  ErrorDisplay: {fileID: 1369330054}
 --- !u!1 &1232720207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,8 +1259,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 68}
-  m_SizeDelta: {x: 260.2405, y: 30}
+  m_AnchoredPosition: {x: 135.35925, y: 68}
+  m_SizeDelta: {x: 530.959, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1369330054
 MonoBehaviour:

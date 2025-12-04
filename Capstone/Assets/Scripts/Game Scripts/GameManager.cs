@@ -9,6 +9,9 @@ public class GameManager : MonoBehaviour
     public int world { get; private set; }
     public int stage { get; private set; }
 
+    // Tokens Collected
+    public int tokensCollected { get; private set; }
+
     // Lives
     public int lives { get; private set; }
 
@@ -19,6 +22,9 @@ public class GameManager : MonoBehaviour
 
     // Game Timer
     public float savedRunTime = 0f;
+
+    // saved final time
+    public float runTime = 0f;
 
     private void Awake()
     {
@@ -49,6 +55,7 @@ public class GameManager : MonoBehaviour
     {
         lives = startingLives;
         savedRunTime = 0f; // New game, new run
+        tokensCollected = 0; // New game, reset tokens
 
         // Player died 3 times -> reset timer
         GameTimer timer = Object.FindFirstObjectByType<GameTimer>();
@@ -78,9 +85,25 @@ public class GameManager : MonoBehaviour
         {
             savedRunTime = timer.timeElapsed;
         }
+
+        // Check if we are about to enter FINAL STAGE (4-1)
+        if (stage == 1 && world == 4)
+        {
+            Debug.Log("Final stage reached! Stopping timer...");
+
+            if (timer != null)
+            {
+                timer.StopTimer();
+                runTime = timer.timeElapsed; // save final time
+            }
+
+            return; // Do NOT load a new stage anymore
+        }
+
         if (stage == 4)
         {
             LoadLevel(world + 1, 1);
+            lives = startingLives;
         }
         else
         {
@@ -112,6 +135,8 @@ public class GameManager : MonoBehaviour
         {
             // Out of lives: reset run time and start over
             savedRunTime = 0f;
+            // Token reset
+            tokensCollected = 0;
             // Out of lives: back to starting world-stage (1-1)
             GameOver();
         }
@@ -120,5 +145,11 @@ public class GameManager : MonoBehaviour
     private void GameOver()
     {
         NewGame();
+    }
+
+    public void AddToken(int amount = 1)
+    {
+        tokensCollected += amount;
+        // Debug.Log("Tokens: " + tokensCollected);
     }
 }

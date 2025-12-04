@@ -11,6 +11,8 @@ public class Login : MonoBehaviour
 
     public Button submitButton;
 
+    public Text ErrorDisplay;
+
     public void CallLogin()
     {
         StartCoroutine(LoginPlayer());
@@ -35,13 +37,15 @@ public class Login : MonoBehaviour
             {
                 if (response[0] == '1')
                 {
+                    Debug.Log("Account logged in successfully");
                     DBManager.username = nameField.text;
                     DBManager.score = int.Parse(response.Split('\t')[1]);
-                    UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+                    SceneManager.LoadScene(0);
                 }
                 else
                 {
                     Debug.Log("User Login Failed. Error: " + response);
+                    ErrorDisplay.text = response;
                 }
             }
         }
