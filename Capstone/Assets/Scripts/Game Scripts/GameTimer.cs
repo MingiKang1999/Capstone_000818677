@@ -1,0 +1,44 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class GameTimer : MonoBehaviour
+{
+    public Text timerText;
+    public bool countUp = true;
+    public float timeElapsed = 0f;
+    private bool isRunning = true;
+
+    private void Start()
+    {
+        // If GameManager exists, restore saved time
+        if (GameManager.Instance != null)
+        {
+            timeElapsed = GameManager.Instance.savedRunTime;
+        }
+    }
+
+    private void Update()
+    {
+        if (!isRunning)
+            return;
+
+        timeElapsed += Time.deltaTime;
+
+        int minutes = Mathf.FloorToInt(timeElapsed / 60f);
+        int seconds = Mathf.FloorToInt(timeElapsed % 60f);
+
+        if (timerText != null)
+            timerText.text = string.Format("TIME: {0:00}:{1:00}", minutes, seconds);
+    }
+
+    public void StopTimer()
+    {
+        isRunning = false;
+    }
+
+    public void ResetTimer()
+    {
+        isRunning = true;
+        timeElapsed = 0f;
+    }
+}

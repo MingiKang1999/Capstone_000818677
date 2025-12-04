@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 1177843158968374497}
   - component: {fileID: 1336249115929586003}
   - component: {fileID: 7653266031872709971}
-  m_Layer: 0
+  - component: {fileID: 2566124174449032983}
+  m_Layer: 3
   m_Name: itemBlock_3
-  m_TagString: Untagged
+  m_TagString: HighJumpItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,3 +138,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &2566124174449032983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5711070744622400213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad330922f2c478c489cb7ee402dfd78b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PowerUpBlock
+  cooldownTime: 20
+  inactiveColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

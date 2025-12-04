@@ -54,6 +54,9 @@ public class PlayerMovement : MonoBehaviour
             // Short hop when releasing jump early
             rb.linearVelocity += Vector2.up * Physics2D.gravity.y * (gravityScale - 1) * Time.deltaTime;
         }
+
+        // NEW: keep Rigidbody gravityScale in sync with the field
+        rb.gravityScale = gravityScale;
     }
 
     private void FixedUpdate()

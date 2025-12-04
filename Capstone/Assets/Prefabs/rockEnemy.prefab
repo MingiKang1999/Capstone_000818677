@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7670649593661368642}
   - component: {fileID: 280173116570590465}
   - component: {fileID: 7399866077200931664}
-  - component: {fileID: 1524683461036491305}
+  - component: {fileID: 1877037141662411868}
   m_Layer: 0
   m_Name: rockEnemy
   m_TagString: Enemy
@@ -156,7 +156,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.4
---- !u!114 &1524683461036491305
+--- !u!114 &1877037141662411868
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,5 +170,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EntityMovement
   speed: 100
   direction: {x: 1, y: 0}
-  minX: 600
-  maxX: 900
+  minX: 2000
+  maxX: 2300
