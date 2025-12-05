@@ -1,3 +1,8 @@
+/*
+I Mingi Kang, 000818677, certify that this material is my original work. 
+No other person's work has been used without suitable acknowledgment 
+and I have not made my work available to anyone else.
+*/
 using UnityEngine;
 
 [RequireComponent(typeof(Camera))]
@@ -5,6 +10,8 @@ public class SideScrolling : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform player;
+
+    public Transform Player => player;
 
     [Header("Camera Settings")]
     [SerializeField] private float followSpeed = 250f;

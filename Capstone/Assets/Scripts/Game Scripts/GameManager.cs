@@ -1,5 +1,13 @@
+/*
+I Mingi Kang, 000818677, certify that this material is my original work. 
+No other person's work has been used without suitable acknowledgment 
+and I have not made my work available to anyone else.
+*/
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Networking;
 
 public class GameManager : MonoBehaviour
 {
@@ -58,13 +66,14 @@ public class GameManager : MonoBehaviour
         tokensCollected = 0; // New game, reset tokens
 
         // Player died 3 times -> reset timer
-        GameTimer timer = Object.FindFirstObjectByType<GameTimer>();
+        GameTimer timer = UnityEngine.Object.FindFirstObjectByType<GameTimer>();
         if (timer != null)
         {
             timer.ResetTimer();
         }
 
         LoadLevel(startingWorld, startingStage);  // this is your "1-1"
+        Debug.Log(DBManager.username);
     }
 
     private void LoadLevel(int world, int stage)
@@ -86,27 +95,17 @@ public class GameManager : MonoBehaviour
             savedRunTime = timer.timeElapsed;
         }
 
-        // Check if we are about to enter FINAL STAGE (4-1)
-        if (stage == 1 && world == 4)
-        {
-            Debug.Log("Final stage reached! Stopping timer...");
-
-            if (timer != null)
-            {
-                timer.StopTimer();
-                runTime = timer.timeElapsed; // save final time
-            }
-
-            return; // Do NOT load a new stage anymore
-        }
+        // NORMAL STAGE PROGRESSION (no final-save logic here anymore)
 
         if (stage == 4)
         {
+            // Move to the next world, reset lives
             LoadLevel(world + 1, 1);
             lives = startingLives;
         }
         else
         {
+            // Move to next stage in same world
             LoadLevel(world, stage + 1);
         }
     }
@@ -151,5 +150,77 @@ public class GameManager : MonoBehaviour
     {
         tokensCollected += amount;
         // Debug.Log("Tokens: " + tokensCollected);
+    }
+
+    public void ResetRunState()
+    {
+        // Reset level progress
+        world = startingWorld;
+        stage = startingStage;
+
+        // Reset lives for next run
+        lives = startingLives;
+
+        // Reset timers
+        savedRunTime = 0f;
+        runTime = 0f;
+
+        // Reset per-run tokens (DB already has lifetime total)
+        tokensCollected = 0;
+
+        Debug.Log("GameManager run state reset for new game.");
+    }
+
+    //   SAVE TO DATABASE
+    public void CallSaveFinalResults()
+    {
+        // Assumes you already logged in and DBManager.username is set
+        if (string.IsNullOrEmpty(DBManager.username))
+        {
+            Debug.LogError("No username set in DBManager. Cannot save run.");
+            return;
+        }
+
+        StartCoroutine(SaveFinalResults());
+    }
+
+    private IEnumerator SaveFinalResults()
+    {
+        // Add to the local token counter
+        DBManager.score += tokensCollected;
+        // Convert runTime to a hh:mm:ss string for the DB TIME column
+        int runTimeSeconds = Mathf.RoundToInt(savedRunTime);
+        TimeSpan ts = TimeSpan.FromSeconds(runTimeSeconds);
+        string runtimeString = ts.ToString(@"hh\:mm\:ss");
+
+        Debug.Log($"Saving results for {DBManager.username}: time={runtimeString}, tokens={tokensCollected}");
+
+        WWWForm form = new WWWForm();
+        form.AddField("username", DBManager.username);
+        form.AddField("runtime", runtimeString);
+        form.AddField("tokens", tokensCollected);
+
+        using (UnityWebRequest www = UnityWebRequest.Post(DBManager.ServerBaseUrl + "updaterun.php", form))
+        {
+            yield return www.SendWebRequest();
+            string response = www.downloadHandler.text;
+
+            if (www.result == UnityWebRequest.Result.ConnectionError ||
+                www.result == UnityWebRequest.Result.ProtocolError)
+            {
+                Debug.LogError("Network Connection Error: " + www.error);
+            }
+            else
+            {
+                if (response == "1")
+                {
+                    Debug.Log("Final run saved successfully");
+                }
+                else
+                {
+                    Debug.Log("Save Failed: " + response);
+                }
+            }
+        }
     }
 }

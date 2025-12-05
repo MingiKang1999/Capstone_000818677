@@ -5,14 +5,25 @@ No other person's work has been used without suitable acknowledgment
 and I have not made my work available to anyone else.
 */
 
+	// CORS headers for WebGL on itch.io
+	header("Access-Control-Allow-Origin: *"); // or restrict to your itch.io URL
+	header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+	header("Access-Control-Allow-Headers: Content-Type");
+
+	// Handle preflight OPTIONS request
+	if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+		http_response_code(200);
+		exit();
+	}
+
 	// Connect to DB
-	$connect = mysqli_connect("localhost", "root", "", "unitydb");
+	$connect = mysqli_connect("", "", "", "");
 	if (mysqli_connect_errno()) {
 		echo json_encode(["error" => "Connection failed: " . mysqli_connect_error()]);
 		exit();
 	}
 
-	// Get top 20 players (change ORDER BY if you want a different rule)
+	// Get top players (order by score DESC, tie-break by time ASC)
 	$sql = "
 		SELECT username, time 
 		FROM players
@@ -31,7 +42,7 @@ and I have not made my work available to anyone else.
 	while ($row = mysqli_fetch_assoc($result)) {
 		$players[] = [
 			"username" => $row["username"],
-			"time"     => $row["time"]      // TIME field as string, e.g. "00:01:23"
+			"time"     => $row["time"]      // TIME field as string
 		];
 	}
 
@@ -40,5 +51,4 @@ and I have not made my work available to anyone else.
 
 	mysqli_free_result($result);
 	mysqli_close($connect);
-
 ?>

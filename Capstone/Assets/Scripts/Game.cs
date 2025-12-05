@@ -15,8 +15,8 @@ public class Game : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
-        playerNameDisplay.text = "Player: " + DBManager.username;
-        scoreDisplay.text = "Score: " + DBManager.score;
+        //playerNameDisplay.text = "Player: " + DBManager.username;
+        //scoreDisplay.text = "Score: " + DBManager.score;
     }
 
     public void CallSaveData()

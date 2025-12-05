@@ -1,3 +1,8 @@
+/*
+I Mingi Kang, 000818677, certify that this material is my original work. 
+No other person's work has been used without suitable acknowledgment 
+and I have not made my work available to anyone else.
+*/
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -24,7 +29,7 @@ public class Registration : MonoBehaviour
         form.AddField("username", nameField.text);
         form.AddField("password", passwordField.text);
 
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/sqlconnect/register.php", form))
+        using (UnityWebRequest www = UnityWebRequest.Post(DBManager.ServerBaseUrl + "register.php", form))
         {
             yield return www.SendWebRequest();
             string response = www.downloadHandler.text;

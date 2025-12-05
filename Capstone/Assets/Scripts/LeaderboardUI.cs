@@ -1,18 +1,24 @@
+/*
+I Mingi Kang, 000818677, certify that this material is my original work. 
+No other person's work has been used without suitable acknowledgment 
+and I have not made my work available to anyone else.
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LeaderboardUI : MonoBehaviour
 {
     [Header("UI References")]
-    public Transform rowsParent;      // Scroll View -> Viewport -> Content
+    public Transform rowsParent;      // Scroll View
     public GameObject rowPrefab;      // LeaderboardRow prefab
-    public Text statusText;           // Optional: "Loading..." / errors / search messages
+    public Text statusText;           // Error message
     public InputField searchInput;    // InputField where user types the name to search
 
-    private const string LEADERBOARD_URL = "http://localhost/sqlconnect/leaderboard.php";
+    private const string LEADERBOARD_URL = "https://antiquewhite-hippopotamus-744274.hostingersite.com/sqlconnect/leaderboard.php";
 
     [System.Serializable]
     public class PlayerEntry
@@ -246,5 +252,10 @@ public class LeaderboardUI : MonoBehaviour
                 Debug.LogError("LeaderboardRow component missing on row prefab!");
             }
         }
+    }
+
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
